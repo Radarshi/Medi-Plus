@@ -1,27 +1,18 @@
+import { SignIn } from "@clerk/clerk-react";
 import React from 'react';
-import '../../Styles/Login.css';
+import '../../Styles/Authentication/login.css';
 
 const Login = () => {
   return (
-    <div className="login-container">
-      <div className="login-box">
-        <h2>Welcome Back</h2>
-        <br /><br /><br />
-        <form>
-          <div className="input-group">
-            <input type="text" id="username" name="username" required />
-            <label htmlFor="username">Username</label>
-          </div>
-          <div className="input-group">
-            <input type="password" id="password" name="password" required />
-            <label htmlFor="password">Password</label>
-          </div>
-          <button type="submit">Login</button>
-          <br /><br />
-          <span>New User?<a href="/signup"> Sign Up</a></span>
-        </form>
+    <>
+      <div className="login-container">
+      <a href="/" className="Home"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+</svg></a>
+
+        <SignIn></SignIn>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,0 +1,16 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Full height */
+}
+.Home{
+    height: 80px;
+    width: 80px;
+    position: static
+}
+.Home:hover{
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+    rotate: 180deg;
+}

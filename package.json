@@ -3,20 +3,40 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@clerk/clerk-js": "^5.52.3",
+    "@clerk/clerk-react": "^5.22.13",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "autoplay": "^0.0.4",
+    "bootstrap": "^5.3.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.10.1",
+    "navigation": "^6.2.0",
+    "nodemon": "^3.1.9",
+    "owl.carousel": "^2.3.4",
+    "pagination": "^0.4.6",
+    "popper.js": "^1.16.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
     "route": "^0.2.5",
     "routes": "^2.1.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.3",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "nodemon src/server/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -24,6 +44,7 @@
       "react-app/jest"
     ]
   },
+  "type": "module",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -50,5 +71,7 @@
   "bugs": {
     "url": "https://github.com/Radarshi/Medi-Plus/issues"
   },
-  "homepage": "https://github.com/Radarshi/Medi-Plus#readme"
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
 }

@@ -1,28 +1,41 @@
-const navbar = () => {
-    return(
-        <>
-            <section id="header">
-                    <a href="#"><img id="logo" src="https://i.ibb.co/vqzY1gv/MediPlus.png"/></a>
-                    <div>
-                        <ul id="navbar">
-                            <li><a href="index.html" className="active">Home</a></li>
-                            <li><a href="store">Store</a></li>
-                            <li><a href="blog.html">Book an appointment</a></li>
-                            <li><a href="contact.html">Become a Seller</a></li>
-                            <li><a href="cart.html" id="lg-bag"><i className="fal fa-shopping-bag"></i></a>
-                                <span className="quantity">0</span>
-                            </li>
-                            <li><a href="#" id="close"><i className="far fa-times"></i></a></li>
-                </ul>
-            </div>
-            <div id="mobile">
-                <a href="cart.html"><i className="fal fa-shopping-bag"></i>
-                    <span className="quantity">0</span>
-                </a>
-                <i id="bar" className="fas fa-outdent"></i>
-            </div>
-        </section>
-        </>
-    )
-}
-export default navbar;
+import { Link } from "react-router-dom"; // ✅ Use Link instead of <a> for React routing
+import dark_toggle from "../assets/dark_toggle.png";
+import light_toggle from "../assets/light_toggle.jpg";
+import med_logo from "../assets/med_logo.png";
+import "../Styles/navbar.css";
+
+const Navbar = ({ theme, setTheme }) => {
+  const toggleMode = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
+  return (
+    <nav className="navbar">
+      {/* Logo */}
+      <Link to="/">
+        <img className="logo" src={med_logo} alt="Medical Logo" />
+      </Link>
+
+      {/* Navigation Links */}
+      <ul className="nav-links">
+        <li><Link to="/" className="active">Home</Link></li>
+        <li><Link to="/store">Store</Link></li>
+        <li><Link to="/appointment">Book an Appointment</Link></li>
+        <li><Link to="/lab-tests">Lab Tests</Link></li>
+        <li><Link to="/health-blogs">Health Blogs</Link></li>
+        <li><Link to="/healthcare">HealthCare</Link></li>
+        <li><Link to="/sell">Become a Seller</Link></li>
+      </ul>
+
+      {/* Theme Toggle Button */}
+      <img
+        onClick={toggleMode}
+        src={theme === "light" ? dark_toggle : light_toggle}
+        alt="Toggle Theme"
+        className="toggle"
+      />
+    </nav>
+  );
+};
+
+export default Navbar;
