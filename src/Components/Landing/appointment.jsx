@@ -101,7 +101,7 @@ const Appointment = () => {
       autoplay={{ delay: 3000, disableOnInteraction: false }} // ✅ Autoplay enabled
       loop={true} // ✅ Ensures infinite looping
     ></Swiper>
-        {doctorgenre.map((doctor,index) => 
+        {doctorgenre.map((doctor,index) =>
         <SwiperSlide className="swiper-slide" >
         <a href="#" target="_blank" rel="noopener noreferrer">
           <div key={index}>

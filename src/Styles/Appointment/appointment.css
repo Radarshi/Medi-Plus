@@ -1,6 +1,19 @@
-.appoint{
-    height: 800px;
+.appointment-section{
+    height: 600px;
+    padding-top: 50px;
 }
-.cont{
-    height: 200px;
+
+.form{
+    height: 475px;
+}
+
+.appointment-title{
+    position: relative;
+    font-size: 75px;
+    columns: 2;
+}
+
+.appointment-badge{
+    border-color: black;
+    color: black;
 }

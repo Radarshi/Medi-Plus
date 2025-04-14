@@ -1,27 +1,3 @@
-.parallax {
-height: 100vh;
-width: 100%;
-background-attachment: fixed;
-background-size: cover;
-background-position:center;
-display: flex;
-justify-content: center;
-align-items: center;
-scroll-snap-align: start
-}
-
-.parallax:nth-child(2) {
-background-image: url("https://th.bing.com/th/id/OIP.MUchk3Hw0TTqWvN7eso3igHaE8?w=291&h=194&c=7&r=0&o=5&dpr=1.5&pid=1.7")
-}
-
-.parallax:nth-child(3) {
-background-image: url("https://th.bing.com/th/id/OIP.4CjbJzfOwBDtvDvKlVUD8gHaEq?w=303&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7")
-}
-
-.parallax:nth-child(4) {
-background-image: url("https://th.bing.com/th/id/OIP.fu4cWvbuYMPmhDaQ4w1kMgHaE8?w=261&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")
-}
-
 .content {
 color: #f0f0f0;
 text-align: center;
@@ -29,7 +5,7 @@ padding: 50px;
 }
 
 
-@keyframes fadein {
+@keyframes Fadein {
     from {
         opacity:0;
     }
@@ -42,7 +18,7 @@ padding: 50px;
     height: 50px;
     border-radius: 20px;
     border-color: blanchedalmond;
-    animation: fadein 4s;
+    animation: Fadein 4s;
 }
 .book:hover{
     background-color: blanchedalmond;

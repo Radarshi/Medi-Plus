@@ -4,13 +4,13 @@ import '../Styles/footer.css';
 const Footer = () => {
   return (
       <>
-<section class="w-full bg-white">
+    <section class="w-full bg-white">
     <div class="px-8 py-12 mx-auto max-w-7xl">
         <div class="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <div class="col-span-3">
-                <a href="#_" class="text-xl font-black leading-none text-gray-900 select-none logo">med</a>
+                <a href="#_" class="text-xl font-black leading-none text-gray-900 select-none logo">mediplus</a>
                 <p class="my-4 text-xs leading-normal text-gray-500">
-                    Beautifully hand-crafted components to help you build amazing pages.
+                    We are with your journey to make your health perfect.
                 </p>
             </div>
             <nav class="col-span-1 md:col-span-1 lg:col-span-2">

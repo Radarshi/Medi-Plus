@@ -20,7 +20,7 @@ const Landing = () => {
     return(
         <>
             <div className={`main ${theme}`}>
-            <Navbar theme={theme} setTheme={setTheme} />
+            <Navbar theme={theme} setTheme={setTheme}/>
             <Offer></Offer>
             <Header></Header>
             <Slider></Slider>
@@ -29,8 +29,8 @@ const Landing = () => {
             <Consult></Consult>
             <div className="appoint"><h1>Connect with the top doctors</h1></div>
             <Appointment></Appointment>
-            <Footer></Footer> 
-            <h1>Made with <span > ❤ </span> by Meds</h1>
+            <Footer></Footer>
+            <h1 className="made-with">Made with <span > ❤ </span> by Meds</h1>
             </div>
         </>
     )

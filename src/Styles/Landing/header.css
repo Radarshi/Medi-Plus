@@ -2,7 +2,7 @@
 .slider-container {
     position: relative;
     width: 100%;
-    height: 575px; 
+    height: 575px;
     overflow: hidden;
     margin-top: 80px;
     
@@ -26,14 +26,14 @@
 
 .slide-text {
     position: absolute;
-    bottom: 30px; 
-    left: 30px; 
-    text-align: left; 
-    color: #208787; 
+    bottom: 30px;
+    left: 30px;
+    text-align: left;
+    color: #208787;
     padding: 15px 20px;
-    font-size: 3rem; 
+    font-size: 3rem;
     font-weight: bold;
-    max-width: 33%; 
+    max-width: 33%;
     border-radius: 5px;
 }
 
