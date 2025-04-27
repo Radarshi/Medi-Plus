@@ -23,8 +23,6 @@ const Navbar = ({ theme, setTheme }) => {
         <li><Link to="/appointment">Book an Appointment</Link></li>
         <li><Link to="/lab-tests">Lab Tests</Link></li>
         <li><Link to="/health-blogs">Health Blogs</Link></li>
-        <li><Link to="/healthcare">HealthCare</Link></li>
-        <li><Link to="/sell">Become a Seller</Link></li>
       </ul>
 
       {/* Theme Toggle Button */}

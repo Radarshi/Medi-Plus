@@ -64,7 +64,7 @@ const Appointment = () => {
           Visit your nearby doctors and get your problems being discussed
         </p>
         <div class="leftbtn">
-                       <a href="#"><button>Book Now</button></a> 
+                       <a href="/appointment"><button>Book Now</button></a>
                     </div>
       </div>
 
@@ -103,7 +103,7 @@ const Appointment = () => {
     ></Swiper>
         {doctorgenre.map((doctor,index) =>
         <SwiperSlide className="swiper-slide" >
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="/details" target="_blank" rel="noopener noreferrer">
           <div key={index}>
             <img src={doctor.image} alt={doctor.title} className="swiper-slide-image"/>
             <h2>{doctor.title}</h2>

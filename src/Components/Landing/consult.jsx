@@ -6,14 +6,14 @@ const appointment = () => {
     };
     return(
         <>
-            <div id="HomeFiveSection">   
+            <div id="HomeFiveSection">
                 <div class="Heading5part">
                     <div class="leftTextSection">
                         <h2>Consult top doctors online for any health concern</h2>
                         <h3>Private online consultations with verified doctors in all specialists</h3>
                     </div>
                     <div class="leftbtn">
-                       <a href="#"><button>View All Specialities</button></a> 
+                       <a href="#"><button>View All Specialities</button></a>
                     </div>
                 </div>
                 <div class="allIcon" onclick="location.href = 'www.yoursite.com';" >

@@ -28,13 +28,13 @@ const Appointment = ({startDate :intialDate}) => {
                                 <form>
                                     <div className="row g-3">
                                         <div className="col-12 col-sm-6">
-                                            <input type="text" className="form-control border-0" placeholder="Your Name" />
+                                            <input type="text" className="form-control border-0" placeholder="Your Name" required/>
                                         </div>
                                         <div className="col-12 col-sm-6">
-                                            <input type="email" className="form-control border-0" placeholder="Your Email" />
+                                            <input type="email" className="form-control border-0" placeholder="Your Email" required/>
                                         </div>
                                         <div className="col-12 col-sm-6">
-                                            <input type="text" className="form-control border-0" placeholder="Your Mobile" />
+                                            <input type="text" className="form-control border-0" placeholder="Your Mobile" required/>
                                         </div>
                                         <div className="col-12 col-sm-6">
                                             <select className="form-select border-0">

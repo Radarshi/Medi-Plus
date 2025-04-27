@@ -19,9 +19,9 @@ const Home = () => {
         <>
 
         <Navbar theme={theme} setTheme={setTheme} />
-        
-        <Header></Header>
 
+        <Header></Header>
+        <br />
         <Team></Team>
 
         <Appointment startDate="2025-01-01"></Appointment>
